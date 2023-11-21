@@ -108,6 +108,7 @@ sdk資料夾點開後應該會有一個build.gradle的文件
 然後把OpenCVEngineInterface的檔案放在這個路徑底下
 
 OpenCVEngineInterface.aidl這個檔案可以直接去剛剛下載下來的資料夾找
+
 AndroidStudioProjects\OpenCV-android-sdk\sdk\java\src\org\opencv\engine
 
 ![OpenCVEngineInterface](png/OpenCVEngineInterface.png)
