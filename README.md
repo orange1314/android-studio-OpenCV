@@ -114,7 +114,7 @@ sdk資料夾點開後應該會有一個build.gradle的文件
 在 build.gradle (:opencv) 中添加以下程式碼
 
 buildFeatures{
-    aidl ture
+    aidl true
 }
 
 ![添加程式碼](png/添加程式碼.png)
