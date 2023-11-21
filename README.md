@@ -88,7 +88,7 @@ Android Studio是一個功能強大的開發環境，但在新版本中引入Ope
 
 4. 在`gradle.properties`中添加以下程式碼：
 
-android.defaults.buildfeatures.buildconfig=true
+   ```android.defaults.buildfeatures.buildconfig=true
 
 ![添加程式碼](png/添加程式碼2.png)
 
