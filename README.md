@@ -45,7 +45,7 @@ Android Studio是一個功能強大的開發環境，但在新版本中引入Ope
 
    ![警告1](png/警告1.png)
 
-1.  解決問題，修改版，本開啟`build.gradle`文件，確保版本一致。
+1.  解決問題1: 修改版，本開啟`build.gradle`文件，確保版本一致。
    
    ![opencv_build](png/opencv_build.png)
    ![更改sdk版本](png/更改sdk版本1.png)
