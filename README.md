@@ -90,6 +90,7 @@ Android Studio是一個功能強大的開發環境，但在新版本中引入Ope
 
    - 新建一個路徑`aidl/org/opencv/engine`。
    - 將`OpenCVEngineInterface.aidl`文件放在這個路徑下。
+   - `OpenCVEngineInterface.aidl` 文件可以在以下路徑找到 AndroidStudioProjects\OpenCV-android-sdk\sdk\java\src\org\opencv\engine
 
    ![OpenCVEngineInterface](png/OpenCVEngineInterface.png)
 
