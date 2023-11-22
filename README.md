@@ -56,7 +56,7 @@ Android Studio是一個功能強大的開發環境，但在新版本中引入Ope
 
    ![namespace](png/namespace.png)
 
-3. 添加`settings.gradle`內容，將其內容複製到`settings.gradle`。
+3. 添加`settings.gradle.kts`內容，將其內容複製到`settings.gradle`。
 
    ![settingsgradle](png/settingsgradle.png)
    ![settingsgradle1](png/settingsgradle1.png)
