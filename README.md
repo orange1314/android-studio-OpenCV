@@ -31,16 +31,32 @@ Android Studio是一個功能強大的開發環境，但在新版本中引入Ope
 2. 解壓縮後資料夾主要包含一個`sdk`資料夾，其中包含`build.gradle`文件。
 
    ![sdk資料夾](png/sdk資料夾.png)
-
-3. 開啟`build.gradle`文件，確保版本一致。
-
    ![build.gradle](png/build.png)
+   
+4. 確認好這些文件都齊全後就可以開始建置android studio 專案了
 
-4. 添加namespace，將`apply plugin: 'kotlin-android'`註釋掉，添加`namespace "org.opencv"`。
+### 導入OpenCV模組
+
+1. 點擊"File" >> "New" >> "Import Module"，點開後選擇`opencv-android-sdk`資料夾當中的sdk資料夾，並且命名模組為:opencv
+   
+   ![導入模組sdk](png/導入模組sdk.png)
+   
+2.導入模組後可能會出現以下錯誤訊息：`Plugin [id: 'com.android.application', version: '8.1.4', apply: false] was not found in any of the following sources.`
+
+   ![警告1](png/警告1.png)
+
+1.  解決問題，修改版，本開啟`build.gradle`文件，確保版本一致。
+   
+   ![opencv_build](png/opencv_build.png)
+   ![更改sdk版本](png/更改sdk版本1.png)
+   ![更改sdk版本](png/更改sdk版本2.png)
+   ![更改sdk版本](png/更改sdk版本.png)
+
+2. 添加namespace，將`apply plugin: 'kotlin-android'`註釋掉，添加`namespace "org.opencv"`。
 
    ![namespace](png/namespace.png)
 
-5. 添加`settings.gradle`內容，將其內容複製到`settings.gradle`。
+3. 添加`settings.gradle`內容，將其內容複製到`settings.gradle`。
 
    ![settingsgradle](png/settingsgradle.png)
    ![settingsgradle1](png/settingsgradle1.png)
@@ -50,7 +66,7 @@ Android Studio是一個功能強大的開發環境，但在新版本中引入Ope
 
    ![settingsgradle完成](png/settingsgradle完成.png)
 
-6. 再次編譯代碼，確保不再出現錯誤訊息。
+4. 再次編譯代碼，確保不再出現錯誤訊息。
 
    ![編譯opencv完成](png/編譯opencv完成.png)
 
